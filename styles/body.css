@@ -4,3 +4,23 @@
     box-sizing: border-box;
 }
 
+.body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar{
+    background-color: bisque;
+    height: 15vh;
+}
+
+.main{
+    background-color: cadetblue;
+    height: 60vh;
+}
+
+.bottom{
+    background-color: turquoise;
+    height: 20vh;
+}

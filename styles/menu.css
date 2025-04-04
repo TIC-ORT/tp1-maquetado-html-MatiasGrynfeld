@@ -1,0 +1,37 @@
+.menu{
+    background-color: aqua;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons_menu{
+    padding-left: 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1vw;
+}
+
+.button_example_menu{
+    width: 2rem;
+    height: 2rem;
+}
+
+.search_menu{
+    padding-right: 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1vw;
+}
+
+.input_example_navbar{
+    width: 15vw;
+    height: 50%;
+}
+
+.send_menu{
+    width: 10vw;
+    height: 40%;
+}
