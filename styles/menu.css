@@ -6,32 +6,33 @@
 }
 
 .buttons_menu{
-    padding-left: 1vw;
+    padding-left: 3vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 1vw;
+    gap: 2vw;
 }
 
 .button_example_menu{
     width: 2rem;
-    height: 2rem;
+    aspect-ratio: 1;
 }
 
 .search_menu{
-    padding-right: 1vw;
+    padding-right: 3vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 1vw;
+    gap: 2vw;
+    max-width: 50vw;
 }
 
-.input_example_navbar{
-    width: 15vw;
-    height: 50%;
+.input_example_menu{
+    height: 1rem;
+    box-sizing: content-box;
 }
 
 .send_menu{
-    width: 10vw;
-    height: 40%;
+    width: 3rem;
+    height: 0.8rem;
 }
