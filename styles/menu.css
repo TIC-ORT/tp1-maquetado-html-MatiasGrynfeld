@@ -3,6 +3,8 @@
     height: 5vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0;
 }
 
 .buttons_menu{
@@ -25,11 +27,12 @@
     align-items: center;
     gap: 2vw;
     max-width: 50vw;
+    flex-grow: 1;
 }
 
 .input_example_menu{
+    flex-grow: 1;
     height: 1rem;
-    box-sizing: content-box;
 }
 
 .send_menu{
