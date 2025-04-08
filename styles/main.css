@@ -1,0 +1,47 @@
+.main{
+    background-color: cadetblue;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 3vw;
+}
+
+.timestamp_wrapper{
+    background-color: honeydew;
+    width: fit-content;
+    height: 100%;
+}
+
+.timestamps{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    height: 100%;
+}
+
+.item_wrapper{
+    padding-left: 3vw;
+}
+
+.timestamp {
+    width: 100%;
+    list-style-position: inside;
+}
+
+#n2{
+    background-color: chocolate;
+}
+
+.right{
+    height: 100%;
+}
