@@ -1,5 +1,5 @@
 .main{
-    background-color: cadetblue;
+    background-color: #656a73;
     height: 60vh;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -16,7 +16,7 @@
 }
 
 .timestamp_wrapper{
-    background-color: honeydew;
+    background-color: #474f59;
     width: fit-content;
     height: 100%;
     display: flex;
@@ -33,10 +33,11 @@
 .timestamp {
     width: 100%;
     list-style-position: inside;
+    font-size: 1.2rem;
 }
 
 #n2{
-    background-color: chocolate;
+    background-color: #ff9978;
 }
 
 .right{
@@ -70,7 +71,7 @@
 
 .recommendations{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin: 0 3vw;
 }
@@ -84,11 +85,13 @@
 }
 
 .recommended_video{
-    width: 10vw;
-    height: 7vh;
+    width: 8vw;
+    height: 10vh;
 }
 
 .recommended_video_title{
+    margin-top: 1vh;
     text-align: center;
     max-width: 10vw;
+    font-size: 1rem;
 }

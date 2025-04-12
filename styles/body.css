@@ -16,3 +16,15 @@ img{
     object-fit: cover;
     object-position: center;
 }
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+h3, p, small, li, a{
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 400;
+}

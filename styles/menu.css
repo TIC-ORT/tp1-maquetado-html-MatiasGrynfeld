@@ -16,6 +16,7 @@
 }
 
 .button_example_menu{
+    background-color: #474f59;
     width: 2rem;
     aspect-ratio: 1;
 }
@@ -38,4 +39,5 @@
 .send_menu{
     width: 3rem;
     height: 0.8rem;
+    background-color: #474f59;
 }
