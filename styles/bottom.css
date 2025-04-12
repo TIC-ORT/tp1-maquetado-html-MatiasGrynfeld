@@ -1,0 +1,32 @@
+.bottom {
+    background-color: turquoise;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 3vw;
+    gap: 3vw;
+    width: 100%;
+}
+
+.info {
+    text-align: justify;
+    line-height: 1.4;
+    max-width: 25vw;
+}
+
+.links{
+    margin-top: 1vh;
+    display: flex;
+    gap: 2vw;
+    width: 100%;
+    justify-content: right;
+    padding-right: 3vw;
+}
