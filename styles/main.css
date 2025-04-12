@@ -19,9 +19,6 @@
     background-color: honeydew;
     width: fit-content;
     height: 100%;
-}
-
-.timestamps{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -30,7 +27,7 @@
 }
 
 .item_wrapper{
-    padding-left: 3vw;
+    padding: 1vh 0 1vh 3vw;
 }
 
 .timestamp {
@@ -49,21 +46,21 @@
 }
 
 .video_player{
-    background-color: darkblue;
     display: flex;
-    padding: 3vh 3vw;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .previous{
     width: 5vw;
     aspect-ratio: 1/2;
+    margin-right: 5vw;
 }
 
 .next{
     width: 5vw;
     aspect-ratio: 1/2;
+    margin-left: 5vw;
 }
 
 .video{
@@ -72,9 +69,26 @@
 }
 
 .recommendations{
-    background-color: darkgreen;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 3vw;
+}
+
+.recommendation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 1vw;
+}
+
+.recommended_video{
+    width: 10vw;
+    height: 7vh;
+}
+
+.recommended_video_title{
+    text-align: center;
+    max-width: 10vw;
 }
